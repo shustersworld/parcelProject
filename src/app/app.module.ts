@@ -9,7 +9,6 @@ import { EstructuraBaseModule } from './shared/estructura-base/estructura-base.m
 @NgModule({
   declarations: [
     AppComponent,
-    EstructuraBaseComponent
   ],
   imports: [
     BrowserModule,
