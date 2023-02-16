@@ -1,3 +1,43 @@
-body{
-    background-color: #af7ffc;
+.top{
+    position: absolute;
+    height: 100px;
+    text-align: center;
+}
+.titulo{
+    color: azure;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.principal{
+    position: relative;
+    background: rgba(217, 217, 217, 0.5);
+    opacity: 0.5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 800px;
+    top: 100px;
+    border-radius: 30px;
+}
+
+.header{
+    position: absolute;
+    background-color: rgba(117, 56, 56, 0.322);
+    height: 50px;
+    border-radius: 30px 30px 0px 0px;
+    margin-left: -12px;
+    
+}
+
+.navbar{
+    position: relative;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.582);
+    height: 50px;
+    border-radius: 30px 30px 0px 0px;
+    
+}
+
+// color centro
+.barra{
+    background-color: rgba(0, 0, 0, 0);
 }
