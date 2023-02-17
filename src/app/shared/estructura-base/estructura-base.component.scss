@@ -123,7 +123,7 @@
     display: flex;
 }
 
-.bubbles span
+.ligths span
 {
     position: relative;
     width: 5px;
@@ -135,7 +135,7 @@
     animation: animate 5s linear infinite;
     animation-duration: calc(500s / var(--i));
 }
-.bubbles span:nth-child(even)
+.ligths span:nth-child(even)
 {
     background: #f1d4ea;
     box-shadow: 0 0 0 2px #f8a7e4,
@@ -145,10 +145,10 @@
 {
     0%
     {
-        transform: translateY(100vh) scale(0);
+        transform: translateY(110vh) scale(0);
     }
     90%
     {
-        transform: translateY(-10vh) scale(1);
+        transform: translateY(-10vh) scale(0.5);
     }
 }
