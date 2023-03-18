@@ -1,0 +1,154 @@
+.top{
+    position: absolute;
+    height: 100px;
+    text-align: center;
+}
+.titulo{
+    color: azure;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.principal{
+    position: absolute;
+    background: rgba(217, 217, 217, 0.363);
+    margin-left: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 800px;
+    top: 100px;
+    border-radius: 30px;
+}
+
+.header{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    height: 50px;
+    border-radius: 30px 30px 0px 0px;
+    margin-left: -12px;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(197, 195, 195, 0.322);
+    height: 50px;
+    border-radius: 30px 30px 0px 0px;
+    margin-left: -12px;
+    bottom: 0px;
+    padding: 10px;
+}
+
+
+.barra{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.plantilla{
+    position: absolute;
+    background-color: rgba(83, 83, 83, 0.274);
+    width: 100%;
+    height: 720px;
+    top: 50px;
+    margin-left: -12px;
+}
+
+.footer{
+    position: absolute;
+    background-color: rgba(197, 195, 195, 0.322);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 30px;
+    width: 100%;
+    border-radius: 0px 0px 30px 30px;
+    bottom:  0px;
+    margin-left: -12px;
+    text-align: center;
+    padding: 2px;
+}
+
+.opciones{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    padding: 0px;
+    top: 0px;
+    margin-left: 50px;
+    height: 40px;
+    width: 300px;
+    float: left;
+}
+
+.tutorial{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    padding: 0px;
+    top: 0px;
+    margin-left: 500px;
+    height: 40px;
+    width: 300px;
+    float: left;
+}
+
+.compra{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    padding: 0px;
+    top: 0px;
+    height: 40px;
+    width: 300px;
+    float: left;
+}
+
+.navbar-brand{
+ color: rgb(66, 65, 65);
+}
+
+#navbarNav{
+    position: relative;
+}
+
+
+//fondo starlights
+.starlight{
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   overflow: hidden;
+}
+
+.ligths{
+    position: relative;
+    display: flex;
+}
+
+.ligths span
+{
+    position: relative;
+    width: 5px;
+    height: 5px;
+    background: #deeff3;  
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 100px #4fc3dc;
+    animation: animate 5s linear infinite;
+    animation-duration: calc(500s / var(--i));
+}
+.ligths span:nth-child(even)
+{
+    background: #f1d4ea;
+    box-shadow: 0 0 0 2px #f8a7e4,
+    0 0 50px #ee97d8, 0 0 100px #ee97d8;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(110vh) scale(0);
+    }
+    90%
+    {
+        transform: translateY(-10vh) scale(0.5);
+    }
+}
